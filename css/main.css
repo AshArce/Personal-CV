@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+}
+body{
+  background-color: #C2C8C4
+}
+h4, h3{
+  padding: 0px 0 0 0;
+  margin: 0px 0px 0px 0px;
+}
+footer{
+  margin: 50% 0 0 0px;
+  background-color: #17171e;
+}
+button.btn{
+  background-color: #8D4E7E;
+  border-radius: 5px;
+  color: #C2C8C4;
+}
+p {
+  font-family: antonio;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Anton;
+}
+h1{
+ padding-top: 30px;
+}

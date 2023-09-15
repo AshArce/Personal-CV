@@ -1,0 +1,21 @@
+#fswb{
+  padding-bottom: 20px;
+  color:  #8D4E7E;
+}
+.intro_p{
+  margin: 0px;
+  padding-bottom:  20px;
+}
+.name{
+  font-size: 2rem;
+}
+@media (min-width: 678px){
+  .name{
+    font-size: 70px;
+  }
+  .index-photo{
+    width: 688px;
+    height: 360px;
+  }
+
+}
