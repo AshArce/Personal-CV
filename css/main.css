@@ -1,5 +1,6 @@
 *{
   margin: 0px;
+  /* border: 1px solid red; */
 }
 body{
   background-color: #C2C8C4
@@ -23,7 +24,11 @@ p {
 
 h1,h2,h3,h4,h5,h6{
   font-family: Anton;
+  color:#17171e;
 }
 h1{
  padding-top: 30px;
+}
+a{
+  font-family: antonio;
 }

@@ -17,5 +17,8 @@
     width: 688px;
     height: 360px;
   }
-  
+  .welcome-section{
+    display: flex;
+    align-items: center;
+  }
 }
