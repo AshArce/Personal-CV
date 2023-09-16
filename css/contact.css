@@ -1,14 +1,16 @@
 .contactinfo button{
-  border: 2px solid #151E17;
-  border-radius: 5px;
-  /* margin: 10px; */
-  width: 370px;
+  border: 4px solid #151E17;
+  border-radius: 10px;
+  margin: 10px;
+  width:  350px;
   height: 81px;
+  margin: 10px 0px 10px 0px;
 }
 button{
   background: transparent;
   border: 0px;
   padding: 5px 10px 5px 5px;
+  text-align: start;
 }
 .contactinfo a{
   margin: 10px 10px;
@@ -19,11 +21,16 @@ button{
 }
 .contactinfo svg{
   vertical-align: middle;
-  /* justify-self:end; */
+  height: 60px;
+  width: 60px;
   color: #17171E;
 }
 .maincontact{
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap ;
+  margin: 5px;
+}
+bsize svg, a, button{
+  max-width: 763px;
 }

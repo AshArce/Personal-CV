@@ -1,24 +1,45 @@
+/* header with Navigations */
 #fswb{
   padding-bottom: 20px;
   color:  #8D4E7E;
 }
 .intro_p{
-  margin: 0px;
+  margin: 0px 30px;
   padding-bottom:  20px;
 }
 .name{
   font-size: 2rem;
+  padding-top: 30px;
 }
-@media (min-width: 678px){
+button.btn{
+  background-color: #8D4E7E;
+  border-radius: 5px;
+  color: #C2C8C4;
+}
+.welcome-section{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.index-photo{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+}
+.box:hover{
+  background-color:#8D4E7E;
+}
+@media (min-width: 992px){
   .name{
-    font-size: 70px;
+    font-size: 60px;
   }
   .index-photo{
-    width: 688px;
-    height: 360px;
-  }
-  .welcome-section{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    width: 628px;
+    height: 320px;
   }
+ 
+  
 }

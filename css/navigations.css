@@ -1,14 +1,23 @@
+nav{
+
+}
+.navigations{
+  margin: 15px 0px 20px 0px;
+}
+
 .navigations a{
   text-decoration: none;
   color: #8D4E7E;
-  font-size:  20px;
+  font-size:  25px;
   font-weight: 600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   transition: 0.5s;
   background: rgba(0, 0, 0, 0);
-  /* --webkit-box-reflect: below 5px linear-gradient(to bottom, rbga(0, 0, 0, 0, 0), rgba( 0, 0, 0, 0, 4)); */
+  margin: 0px 5px;
+
+}
+.navigations svg{
+  width: 45px;
+  height: 45px;
 }
 .navigations a:hover{
   background: var(--color);
