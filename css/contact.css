@@ -4,7 +4,7 @@
   margin: 10px;
   width:  350px;
   height: 81px;
-  margin: 10px 0px 10px 0px;
+  margin: 0px 0px 5px 0px;
 }
 button{
   background: transparent;
@@ -29,7 +29,7 @@ button{
   display: flex;
   justify-content: center;
   flex-wrap: wrap ;
-  margin: 5px;
+  margin: 5px 0px 50px 0px;
 }
 bsize svg, a, button{
   max-width: 763px;
