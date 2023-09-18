@@ -1,4 +1,7 @@
 /* header with Navigations */
+.navigations{
+  height: 40vh;
+}
 #fswb{
   padding-bottom: 20px;
   color:  #8D4E7E;
@@ -31,7 +34,7 @@ button.btn{
   background-color:#8D4E7E;
 }
 .contentindex{
-  margin: 0px 0px 100px 0px;
+  height: 60vh;
 }
 @media (min-width: 992px){
   .name{
