@@ -28,21 +28,22 @@
   margin: 20px 0px;
   height:100vh;
   /* border-radius: 20px; */
-  background-color: #26222E;
+  background-color: #cc54b0;
   display: flex;
   flex-wrap: wrap;
 }
 .educationcont{
-  height: 100vh;
+  height: 50vh;
+  padding: 20vh 1vh 50px 1vh;
 }
-#education p{
-  display: inline-flex;
-  text-align: center;
-  vertical-align: middle;
+
+#education h3{
+  margin: 20px 0px;
 }
 #education img{
-  width: 90px;
-  height: 90px;
-  border-radius: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
   border: 3px solid #26222E;
+ 
 }
