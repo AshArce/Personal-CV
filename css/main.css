@@ -1,6 +1,6 @@
 *{
   margin: 0px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 body{
   background: radial-gradient(50% 50% at 50% 50%, #C2C8C4 0%, #887B99 100%) no-repeat center center fixed;
