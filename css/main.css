@@ -1,6 +1,6 @@
 *{
   margin: 0px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 body{
   background: radial-gradient(50% 50% at 50% 50%, #C2C8C4 0%, #887B99 100%) no-repeat center center fixed;
@@ -11,19 +11,27 @@ h4, h3{
   padding: 0px 0 0 0;
   margin: 0px 0px 0px 0px;
 }
-footer{
-  margin: 5% 0px 0px 0px;
-  height: 15vh;
-  background-color: #17171e;
-}
 p {
   font-family: antonio;
 }
 
 h1,h2,h3,h4,h5,h6{
   font-family: Anton;
-  color:#17171e;
+  color:#262033;
+  font-size: 30px;
 }
 a{
   font-family: antonio;
+}
+footer{
+  background-color: #17171e;
+  min-height: 15vh;
+  height: 100%;
+  width: 100%;
+  text-align: start;
+  padding: 5%;
+}
+footer p{
+  font-size: 2rem;
+  color: #887B99;
 }
