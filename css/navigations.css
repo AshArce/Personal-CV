@@ -7,7 +7,7 @@
 .navigations a{
   text-decoration: none;
   color: #8D4E7E;
-  font-size:  2rem;
+  font-size:  1.5rem;
   font-weight: 600;
   transition: 0.5s;
   background: rgba(0, 0, 0, 0);
@@ -15,11 +15,11 @@
 
 }
 .navigations svg{
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 .navigations a:hover{
   background: var(--color);
-  color: #cc54b0;
+  color: #c79bbd;
   text-shadow: 0 0 5px var(--color), 0 0 25px var(--color), 0 0 50px var(--color);
 }

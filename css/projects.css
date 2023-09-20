@@ -1,0 +1,17 @@
+.glass{
+  background: rgba(116,67,156,0.15);
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(116,67,156,0.075);
+  border-radius: 30px;
+  height: 200px;
+  width: 75%;
+  margin: 0px 5%;
+}
+.cman{
+display: flex;
+align-items: end;
+position: absolute;
+max-width: 100%;
+height: auto;
+margin: 1%;
+}
