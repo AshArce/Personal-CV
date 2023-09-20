@@ -35,6 +35,8 @@ button.btn{
 }
 .contentindex{
   height: 60vh;
+  position: relative;
+  top: 200px;
 }
 @media (min-width: 992px){
   .name{
