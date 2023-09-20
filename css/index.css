@@ -30,13 +30,11 @@ button.btn{
   text-align: center;
   border-radius: 20px;
 }
-.box:hover{
-  background-color:#8D4E7E;
-}
 .contentindex{
-  height: 60vh;
-  position: relative;
-  top: 200px;
+ height: 60vh;
+}
+.navigations{
+
 }
 @media (min-width: 992px){
   .name{
