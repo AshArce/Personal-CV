@@ -23,6 +23,9 @@ h1,h2,h3,h4,h5,h6{
 a{
   font-family: antonio;
 }
+ul{
+  font-family: antonio;
+}
 footer{
   background-color: #17171e;
   min-height: 15vh;
@@ -38,6 +41,6 @@ footer p{
 }
 @media (min-width: 768px){
   footer{
-    height: 20vh;
+    /* height: 20vh; */
   }
 }

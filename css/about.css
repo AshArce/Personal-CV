@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 95vh;
+  transition: 0.5;
 }
 .about-first-section-col1{
   display: flex;
@@ -11,6 +12,7 @@
   text-align: end;
   align-items: end;
 }
+
 .about-first-section img{
   width: 200px;
   height: 274.889px;
@@ -26,10 +28,10 @@
 #scroll{
   width: 75px;
   height: 75px;
+  bottom: 5px;
 }
 .about-second-section{
   height: 100%;
-
 }
 .about-third-section{
   height: 100%;
@@ -44,7 +46,7 @@
 .education p{
   width: 250px;
   height: 100%;
-  font-size: large;
+  font-size: 1.3rem;
 }
 .education img{
   min-height: 90px;
@@ -91,4 +93,44 @@ ul{
 .hobbiehead{
   font-size: 3rem;
   margin: 5% 0px;
+}
+
+/* small phone */
+@media (min-width: 440px){
+
+}
+/* tablet */
+@media (min-width: 768px){
+  #scroll{
+    bottom: 20px;
+  }
+  .about-first-section p{
+    font-size: 1.5rem;
+  }
+
+}
+/* laptop and PC */
+@media (min-width: 992px){
+  .about-first-section p{
+    font-size: 2rem;
+    }
+    .about-first-section img{
+      width: 300px;
+      height: 412px;
+      border-radius: 200px;
+      padding: 0px;
+    }
+    .about-first-section svg{
+
+      width: 300px;
+      height: 308px;
+    }
+    .about-third-section p{
+      font-size: 2rem;
+    }
+    .about-third-section img{
+      width:180px;
+      height: 180px;
+      border-radius: 200px;
+    }
 }

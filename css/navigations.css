@@ -23,3 +23,19 @@
   color: #c79bbd;
   text-shadow: 0 0 5px var(--color), 0 0 25px var(--color), 0 0 50px var(--color);
 }
+/* small phone */
+@media (min-width: 440px){
+
+}
+/* tablet */
+@media (min-width: 768px){
+  .navigations a{
+    font-size: 2.5rem;
+  }
+}
+/* laptop and PC */
+@media (min-width: 992px){
+  .navigations a{
+    font-size: 3rem;
+  }
+}
