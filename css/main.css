@@ -4,6 +4,7 @@
 }
 body{
   background: radial-gradient(50% 50% at 50% 50%, #C2C8C4 0%, #887B99 100%) no-repeat center center fixed;
+  height: auto;
 
 
 }
@@ -28,12 +29,12 @@ ul{
 }
 footer{
   background-color: #17171e;
-  min-height: 15vh;
-  height: 100%;
+  height: auto;
   width: auto;
   text-align: start;
   padding: 5%;
   margin-top: 10%;
+
 }
 footer p{
   font-size: 2rem;
@@ -41,6 +42,6 @@ footer p{
 }
 @media (min-width: 768px){
   footer{
-    /* height: 20vh; */
+   
   }
 }

@@ -1,11 +1,17 @@
+.construction{
+  padding: 0px 0px 100px 0px;
+  height: 80vh;
+}
+
 .glass{
   background: rgba(116,67,156,0.15);
   backdrop-filter: blur(3px);
   border: 1px solid rgba(116,67,156,0.075);
   border-radius: 30px;
-  height: 200px;
+  height: 70vh;
   width: 75%;
   margin: 0px 5%;
+  
 }
 .cman{
 display: flex;
@@ -14,4 +20,5 @@ position: absolute;
 max-width: 100%;
 height: auto;
 margin: 1%;
+bottom: 0px
 }
