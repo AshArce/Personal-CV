@@ -27,12 +27,17 @@ footer{
   background-color: #17171e;
   min-height: 15vh;
   height: 100%;
-  width: 100%;
+  width: auto;
   text-align: start;
   padding: 5%;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 footer p{
   font-size: 2rem;
   color: #887B99;
+}
+@media (min-width: 768px){
+  footer{
+    height: 20vh;
+  }
 }

@@ -3,6 +3,7 @@
   height: 40vh;
 }
 #fswb{
+  font-size: 1.5rem;
   padding-bottom: 20px;
   color:  #8D4E7E;
 }
@@ -11,18 +12,24 @@
   padding-bottom:  20px;
 }
 .name{
-  font-size: 2rem;
+  font-size: 3rem;
   padding-top: 30px;
 }
-button.btn{
+.btn{
   background-color: #8D4E7E;
   border-radius: 5px;
+  color: #C2C8C4;
+}
+.btn:hover{
+  background-color: #6b3b60;
   color: #C2C8C4;
 }
 .welcome-section{
   display: flex;
   align-items: center;
   text-align: center;
+  white-space: wrap;
+  padding: 0px 2rem;
 }
 .index-photo{
   display: flex;
@@ -30,22 +37,32 @@ button.btn{
   text-align: center;
   border-radius: 20px;
 }
-.contentindex{
- height: 60vh;
-}
 .navigations{
 
 }
-@media (min-width: 992px){
-  .name{
-    font-size: 60px;
+/* small phone */
+@media (min-width: 440px){
+  .index-photo{
+    width: 350px;
+    height: 200px;
   }
+}
+/* tablet */
+@media (min-width: 768px){
   .index-photo{
     display: flex;
     justify-content: center;
     width: 628px;
-    height: 320px;
+    height: 353px;
   }
- 
+}
+/* laptop and PC */
+@media (min-width: 992px){
+  .name{
+    font-size: 4rem;
+  }
+  .contentindex{
+    padding: 150px 0px;
+  }
   
 }
