@@ -49,9 +49,20 @@ button{
 }
 /* tablet */
 @media (min-width: 768px){
-  
+  .contactinfo button{
+    height: 150px;
+    width: 370px;
+  }
+  .contactinfo a{
+    font-size: 1.3rem;
+  }
+  .box{
+    padding:0px 5px;
+  }
 }
 /* laptop and PC */
 @media (min-width: 992px){
-  
+  .box{
+    padding:15px 15px; 
+  }
 }

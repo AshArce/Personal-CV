@@ -32,14 +32,9 @@ footer{
   background-color: #17171e;
   text-align: start;
   padding: 5%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 footer p{
   font-size: 1.5rem;
   color: #887B99;
-}
-@media (min-width: 768px){
-  footer{
-   
-  }
 }

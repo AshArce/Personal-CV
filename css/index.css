@@ -4,7 +4,6 @@
 }
 #fswb{
   font-size: 1.5rem;
-  padding-bottom: 20px;
   color:  #8D4E7E;
 }
 .intro_p{
@@ -37,8 +36,8 @@
   text-align: center;
   border-radius: 20px;
 }
-.navigations{
-
+.contentindex{
+  width: 100%;
 }
 /* small phone */
 @media (max-width: 767px){
@@ -58,6 +57,10 @@
     width: 500px;
     height: 282px;
   }
+  .contentindex{
+    padding: 50px 0px;
+    margin: 0px 0px 25vh 0px;
+  }
 }
 /* laptop and PC */
 @media (min-width: 992px){
@@ -65,10 +68,12 @@
     font-size: 4rem;
   }
   .contentindex{
-    padding: 50px 0px;
+    margin: 0px 0px 20vh 5%;
+    padding: 0px 0px;
   }
   .index-photo{
     width: 600px;
     height: 338px;
+    margin-left: 10%;
   }
 }
