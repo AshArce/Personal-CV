@@ -14,16 +14,16 @@
 }
 
 .about-first-section img{
-  width: 200px;
-  height: 274.889px;
+  width: 150px;
+  height: 209px;
   position: relative;
   border-radius: 100px;
   padding: 0px;
 }
 .about-first-section svg{
   position: absolute;
-  width: 200px;
-  height: 204px;
+  width: 150px;
+  height: 153px;
 }
 #scroll{
   width: 75px;
@@ -96,8 +96,10 @@ ul{
 }
 
 /* small phone */
-@media (min-width: 440px){
-
+@media (max-width: 767px){
+  .about-first-section p{
+    font-size: 15px;
+  }
 }
 /* tablet */
 @media (min-width: 768px){
@@ -106,6 +108,14 @@ ul{
   }
   .about-first-section p{
     font-size: 1.5rem;
+  }
+  .about-first-section img{
+    height: 278px;
+    width: 200px;
+  }
+  .about-first-section svg{
+    height: 200px;
+    width: 200px;
   }
 
 }
