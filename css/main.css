@@ -39,8 +39,10 @@ footer p{
   color: #887B99;
 }
 /* small phone */
-@media (min-width: 440px){
-
+@media (max-width: 767px){
+ footer{
+  margin-top: 10%;
+ }
 }
 /* tablet */
 @media (min-width: 768px){

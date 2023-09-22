@@ -1,20 +1,20 @@
 
 
 .contact-section{
-  height: 75vh;
+  height: 90vh;
 }
 .contactinfo button{
   border: 4px solid #151E17;
   border-radius: 10px;
   margin: 10px;
-  width:  350px;
+  width:  330px;
   height: 81px;
   margin: 0px 0px 5px 0px;
 }
 button{
   background: transparent;
   border: 0px;
-  padding: 5px 10px 5px 5px;
+  padding: 5px 0px 5px 5px;
   text-align: start;
 }
 .contactinfo a{
@@ -51,10 +51,10 @@ button{
 @media (min-width: 768px){
   .contactinfo button{
     height: 125px;
-    width: 370px;
+    width: 350px;
   }
   .contactinfo a{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .box{
     padding:0px 5px;
@@ -64,6 +64,14 @@ button{
 @media (min-width: 992px){
   .box{
     padding:15px 15px; 
+  }
+  .contactinfo button{
+    width: 500px;
+    height: 150px;
+    border: 7px solid #17171E ;
+  }
+  .contactinfo a{
+    font-size: 1.7rem;
   }
 
 }
