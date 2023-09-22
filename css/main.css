@@ -28,16 +28,14 @@ ul{
   font-family: antonio;
 }
 footer{
+  display: flex;
   background-color: #17171e;
-  height: auto;
-  width: auto;
   text-align: start;
   padding: 5%;
   margin-top: 10%;
-
 }
 footer p{
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #887B99;
 }
 @media (min-width: 768px){
