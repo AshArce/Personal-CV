@@ -35,15 +35,7 @@ button{
   transition: 0.5s;
   border: 6px solid #8D4E7E;
   border-radius: 30px;
-
   margin: 0px 0px 5px 0px;
-}
-.contactinfo a:hover{
-  margin: 10px 10px;
-  color: #17171E;
-  font-weight: bold;
-  font-size: 1.3rem;
-  text-decoration: none;
 }
 .maincontact{
   display: flex;
