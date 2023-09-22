@@ -38,3 +38,17 @@ footer p{
   font-size: 1.5rem;
   color: #887B99;
 }
+/* small phone */
+@media (min-width: 440px){
+
+}
+/* tablet */
+@media (min-width: 768px){
+  
+}
+/* laptop and PC */
+@media (min-width: 992px){
+ footer{
+  margin: 10% 0px 0px 0px
+ }
+}
