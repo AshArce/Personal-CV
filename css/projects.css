@@ -23,3 +23,10 @@ height: auto;
 margin: 1%;
 bottom: 0px
 }
+
+.carousel{
+  height: 100%;
+}
+.carousel-inner *{
+  height: 100%;
+}
